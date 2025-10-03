@@ -1,1 +1,182 @@
-# Tarea2
+# Tarea2[tarea_02_ipynb_.ipynb](https://github.com/user-attachments/files/22688144/tarea_02_ipynb_.ipynb)
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "2zsVwbNz2BTG"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Tarea 02 – Programación en Python\n",
+        "**Autor:** Alberto Rojas  \n"
+      ],
+      "metadata": {
+        "id": "D5JM1dRY2b9T"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Problema 1: Imprimir números del -100 al 200\n",
+        "\n",
+        "Para este problema utilicé un bucle `for` con `range(-100, 201)`. Agregué el número 201 ya que, de lo contrario, la serie solo llegaría hasta 199.\n"
+      ],
+      "metadata": {
+        "id": "Uok-C1e63-Fc"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "for i in range(-100, 201):\n",
+        "    print(i)\n"
+      ],
+      "metadata": {
+        "id": "CQG3q7r-4Jt8"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Problema 2: Imprimir los números del -100 al 200 divisibles entre 6\n",
+        "\n",
+        "Aquí también usamos `range(-100, 201)`, pero añadimos la condición `if i % 6 == 0` para mostrar solo los que son divisibles por 6.\n"
+      ],
+      "metadata": {
+        "id": "I0bJOPHB4L37"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "for i in range(-100, 201):\n",
+        "    if i % 6 == 0:\n",
+        "        print(i)\n"
+      ],
+      "metadata": {
+        "id": "0Qn3EceT4UgR"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Problema 3: Pseudocódigo, Sumador y comparador de dos números\n",
+        "\n",
+        "En este caso sumé dos números y utilicé condicionales `if`, `elif` y `else` para entregar distintos mensajes según el valor del resultado:\n",
+        "\n",
+        "- Si la suma es menor a 200 → \"Menor que 200\".\n",
+        "- Si está entre 200 y 250 → \"Mayor que 200 y menor que 250\".\n",
+        "- Si es mayor a 250 → \"Mayor que 250\".\n"
+      ],
+      "metadata": {
+        "id": "t3B5EjtR4WdB"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "numero1 = 145\n",
+        "numero2 = 88\n",
+        "suma = numero1 + numero2\n",
+        "\n",
+        "if suma < 200:\n",
+        "    print(\"Menor que 200\")\n",
+        "elif suma > 200 and suma < 250:\n",
+        "    print(\"Mayor que 200 y menor que 250\")\n",
+        "else:\n",
+        "    print(\"Mayor que 250\")\n"
+      ],
+      "metadata": {
+        "id": "pQDVfv2J4bI6"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Problema 4: Pseudocódigo, Calculador de perfil\n",
+        "\n",
+        "**edad en la que una persona fue por primera vez al estadio**.  \n",
+        "Dependiendo de la edad, el programa muestra distintos mensajes. Esto permite practicar variables y condicionales en Python.\n"
+      ],
+      "metadata": {
+        "id": "V-3K3hnb4doy"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "def perfil_estadio(edad_primera_vez):\n",
+        "    if edad_primera_vez < 10:\n",
+        "        print(\"Fuiste al estadio desde muy chico, pasión temprana por el fútbol.\")\n",
+        "    elif edad_primera_vez >= 10 and edad_primera_vez <= 18:\n",
+        "        print(\"Fuiste al estadio en tu adolescencia, buena etapa para vivir la experiencia.\")\n",
+        "    elif edad_primera_vez > 18 and edad_primera_vez <= 30:\n",
+        "        print(\"Fuiste al estadio de adulto joven, seguro fue una gran experiencia.\")\n",
+        "    else:\n",
+        "        print(\"Fuiste al estadio ya más grande, nunca es tarde para disfrutar el fútbol.\")\n",
+        "\n",
+        "# Ejemplo\n",
+        "perfil_estadio(15)\n"
+      ],
+      "metadata": {
+        "id": "SC8jACyK4m_a"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "cRd5Wgd44qVC"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "vJxYyjR244KB"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "pd88KapZ4hKN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "E0QUSTzX2amF"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "2lZOPP_L3xJZ"
+      }
+    }
+  ]
+}
